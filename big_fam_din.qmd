@@ -1,0 +1,80 @@
+---
+title: "The Big Family Dinner Type Restaurant"
+author: Saher Hajidamji"
+date: "2024-09-19"
+categories: [Features, Kin Kho, Flores, Comal, Vik's Chaat]
+image: "images/IMG_0902.jpg"
+---
+
+```{r, include=FALSE}
+library(tidyverse)      # ecosystem of data science packages
+library(sf)             # provides classes and functions for vector data
+library(rnaturalearth)  # provides data sets of maps (vector data)
+library(leaflet)        # for drawing web interactive maps
+```
+
+```{r, include=FALSE}
+
+rest_data = read.csv("../../restdata.csv")
+rest_data
+```
+
+```{r, include=FALSE}
+
+colnames(rest_data)
+```
+
+```{r, include=FALSE}
+
+library(dplyr)
+
+big_fam_data <- rest_data |> filter(.data$Big.Family.Dinner == 1)
+big_fam_data
+```
+
+```{r, echo=FALSE}
+cuisine_counts <- table(big_fam_data$Cuisine)
+pie(cuisine_counts, 
+    main = "Cuisine Distribution", 
+    col = rainbow(length(cuisine_counts)), 
+    labels = paste(names(cuisine_counts), round(100 * cuisine_counts / sum(cuisine_counts), 1), "%"))
+```
+
+``` {r}
+
+big_fam_data$"X........acc.to.Michelin."
+
+# big_fam_data$Price_Level <- as.numeric(factor(big_fam_data$"X........acc.to    .Michelin.",
+#     levels = c("$", "$$", "$$$", "$$$$"), 
+#     labels = c(1, 2, 3, 4)))
+
+
+
+#horiz bar chart ggplotly(gg)
+```
+
+# Kin Khao (maybe remove $$$)
+
+See post about [Kin Khao](../Give%20a%20Guest%20a%20Glimpse%20Type/guest_din.html)
+
+# Flores
+
+### Crayons & Kids Menus
+
+# Comal
+
+#### Cuisine: Mexican
+
+#### Michelin: 1 Star (put face)
+
+Comal, a point of passing for the families of the city of Berkeley, is a given for the Big Family Dinner Restaurant Type. You'll walk in to find
+
+# Vik's Chaat
+
+### Grocery Runs Into Lunch
+
+Kinda like when you were young and your doctor's appointment turned into a McDonald's run, here's your perfect example of a grocery run that turned into lunch.
+
+Vik's unique setup is a maze through their grocery store to get to the restaurant.
+
+Their tables are large and platters are large to share amongst each other or eat for a hungry one!

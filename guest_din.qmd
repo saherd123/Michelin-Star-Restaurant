@@ -1,0 +1,95 @@
+---
+title: "Give A Guest A Glimpse of The City"
+author: Saher Hajidamji"
+date: "2024-09-19"
+categories: [Kin Khao, Hog Island Oyster Co, Comal]
+#how do i make the categories links?
+embed-resources: true
+image: "../images/HogIsland.jpg"
+---
+
+```{r, include=FALSE}
+library(tidyverse)      # ecosystem of data science packages
+library(sf)             # provides classes and functions for vector data
+library(rnaturalearth)  # provides data sets of maps (vector data)
+library(leaflet)        # for drawing web interactive maps
+```
+
+```{r, include=FALSE}
+
+rest_data = read.csv("../../restdata.csv")
+rest_data
+```
+
+```{r, include=FALSE}
+
+colnames(rest_data)
+```
+
+```{r, include=FALSE}
+  
+#include=FALSE}
+
+library(dplyr)
+
+guest_din_data <- rest_data |> filter(.data$Big.Family.Dinner == 1)
+guest_din_data
+```
+
+# Kin Khao {#sec-kinkhao}
+
+## The Bay Area 🤝 Thai Food
+
+No hate on my hometown LA, but I didn't truly enjoy Thai food until I arrived in The Bay Area. Of course, they're- or is it we're now? Hahaha
+
+Well, regardless! We're ;) known for a tasteful assortment of South and Southeast Asian food, which you should check out my other reviews of (link) Nari and (link) Dumpling Home to explore some of my other favorite Asian-ethnic restaurants!
+
+Located in the hotel Parc 55,
+
+Went on my Birthday
+
+Same chef/owner as (link) Nari
+
+Fav dish was rabbit curry
+
+
+
+
+# Hog Island Oyster Co
+
+<img src="images/HogIsland.jpg"/>
+
+## What A Sweet Spot!
+
+Watch out! That's not a backdrop; that's The Bay as the one in "The Bay Area."
+
+Located in the sweetest of spots overlooking the ferry riders is the Hog Island Oyster Co in the Ferry Building. As an avid BART (Bay Area Rapid Transportation) rider, it's also very convenience that the Embaracerdo train stops right in front of the Ferry Building.
+
+See @sec-kinkhao
+
+
+
+# Comal
+
+## I See UC Berkeley 👀
+
+Comal's prime location right next to UC Berkeley makes it just another reason it's great to bring an out of town guest.
+
+If you're going to be in East Bay, you have to check out Shattuck Blvd with its lively city members inclusive of families with the high school near by, young adults with the University as its neighbor and even the cutest of couples growing old.
+
+```{r, include=FALSE}
+
+#```{r, include=FALSE}
+
+rest_name = "Comal"
+lat = guest_din_data[trimws(guest_din_data$Restaurant.Name) == rest_name, "Latitude"]
+long <- guest_din_data[trimws(guest_din_data$Restaurant.Name) == rest_name, "Longitude"]
+
+```
+
+```{r, echo=FALSE}
+ leaflet() |>
+    addTiles() |> 
+    setView(lng = -122.258941, lat = 37.872018, zoom = 15) |> 
+    addMarkers(lng = long, lat = lat, popup = rest_name)
+```

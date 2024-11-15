@@ -1,0 +1,37 @@
+Restaurant Name ,Michelin ,# of Michelin Stars,Michelin Guide,Latitude,Longitude ,City,Address,Cuisine,What they're known for ,Yelp Rating,# of Yelp Reviews,Google Review,# of Google Reviews,My Rating,$$$$$$ (acc to Michelin),Monday Hours,Tuesday Hours,Wednesday Hours,Thursday Hours,Friday Hours,Saturday Hours,Sunday Hours,theme,demographic,color scheme ,bulding style,notes,Owner,Chef,other,reservations?,Good for?
+Dumpling Home,1,1,N/A,37.77587559,-122.4226468,San Francisco,"298 Gough St
+San Francisco, CA
+94102",Chinese,Dim Sum,4.5,1687,4.6,1178,,$$,"11:30 AM–2:15 PM, 5–8:15 PM","11:30 AM–2:15 PM, 5–8:15 PM","11:30 AM–2:15 PM, 5–8:15 PM","11:30 AM–2:15 PM, 5–8:15 PM","11:30 AM–2:15 PM, 5–8:45 PM","11:30 AM–2:15 PM, 5–8:45 PM","11:30 AM–2:15 PM, 5–8:15 PM",,,,traditional,,,,,No Reservations,
+Nari,1,1,N/A,37.78557957,-122.4287244,San Francisco,"1625 Post St
+San Francisco, CA
+94115",Thai,"Squid and Pork Jowl
+Gaeng Bumbai Aubergine",4,507,4.4,414,,$$$$,5:30–9 PM,5:30–9 PM,5:30–9 PM,5:30–9 PM,5:30–9:15 PM,5:30–9:15 PM,5:30–9 PM,business; celebration,,black,modern,"spicy 
+make special birthday meu",Pim Techamuanvivit,Pim Techamuanvivit,Located in Hotel Kabuki,,Ethnic families (who like spicy)
+Kin Khao,1,1,N/A,37.7854442,-122.4093739,San Francisco,"55 Cyril Magnin St.
+San Francisco, CA
+94102",Thai,Khun Yai's Rabbit Green Curry,3.9,2535,4.3,1796,,$$$,"11:30 AM-2 PM
+5:30 PM-9 PM","11:30 AM-2 PM
+5:30 PM-9 PM","11:30 AM-2 PM
+5:30 PM-9 PM","11:30 AM-2 PM
+5:30 PM-9 PM","""11:30 AM-2 PM
+5:30 PM-10 PM","""11:30 AM-2 PM
+5:30 PM-10 PM","11:30 AM-2 PM
+5:30 PM-9 PM",,,wood and black,,,Pim Techamuanvivit,Pim Techamuanvivit,Located in Parc 55,,
+Flores,1,1,N/A,37.79779834,-122.4325001,San Francisco,"2030 Union St
+San Francisco, CA 
+94123",Mexican,,4,1113,4.4,1055,,$$,11:30 AM–9:30 PM,11:30 AM–9:30 PM,11:30 AM–9:30 PM,11:30 AM–9:30 PM,11:30 AM–10:30 PM,11 AM–10:30 PM,11 AM–9:30 PM,,young people,,,,,,,OpenTable,
+Mensho,0,0,1,37.79199481,-122.4137109,San Francisco,"672 Geary St
+San Francisco, CA 
+94102",Japanese,Ramen,4.1,3092,4.5,2537,,$$,5–10 PM,5–10 PM,5–10 PM,5–10 PM,4–11 PM,4–11 PM,4–10 PM,,,,,alotted one hour,,,,no reservations,
+Cotogna,0,0,1,37.79760635,-122.4035652,San Francisco,"490 Pacific Ave
+San Francisco, CA
+94133",Italian,,4.1,2087,4.6,1798,,$$$,4:30–9 PM,4:30–9 PM,11:30 AM–9 PM,11:30 AM–9 PM,11:30 AM–9 PM,11:30 AM–9 PM,CLOSED,,,,,everything on their menu is unique - literally,,,,,
+Hog Island Oyster Co.,0,0,1,37.79617066,-122.3934361,San Francisco,"1 Ferry Bldg Ste 11 
+San Francisco, CA
+94111",Seafood,Oysters!,4.4,7309,4.6,3279,,$$$,11:30 AM–8 PM,11:30 AM–8 PM,11:30 AM–8 PM,11:30 AM–8 PM,11:30 AM–8 PM,11 AM–8 PM,11 AM–8 PM,,,,,in the Ferry Building,,,,,Out of town guests
+Comal ,1,1,N/A,37.87201819,-122.2689415,Berkeley,"2020 Shattuck Ave.
+Berkeley, CA
+94704",Mexican,,3.4,1442,4.4,1365,,$$,5–9 PM,5–9 PM,5–9 PM,5–10 PM,CLOSED,5–10 PM,5–9 PM,,,,,,,,,,
+Vik's Chaat,0,0,1,37.8616091,-122.2980449,Berkeley,"2390 Fourth St
+Berkeley, CA 
+94710",Indian,Dosa,3.9,2960,4.2,3995,,$,"11 AM–2:30 PM, 5–7:30 PM","11 AM–2:30 PM, 5–7:30 PM","11 AM–2:30 PM, 5–7:30 PM","11 AM–2:30 PM, 5–7:30 PM",11 AM–7:30 PM,11 AM–7:30 PM,11 AM–7:30 PM,,,,,also a grocery store,,,,,

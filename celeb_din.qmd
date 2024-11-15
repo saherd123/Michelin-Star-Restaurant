@@ -1,0 +1,13 @@
+---
+title: "The Celebratory Dinner Type"
+author: Saher Hajidamji"
+date: "2024-09-19"
+categories: [appetizers, main, dessert, ambiance, restaurant type, customer service, bang per buck, TLDR, star or cap?]
+image: "images/IMG_0902.jpg"
+---
+
+This is a post with executable code.
+
+```{r}
+1 + 1
+```
